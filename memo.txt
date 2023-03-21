@@ -1,0 +1,7 @@
+www.dabipyeung.com/soaply
+
+remix icon : <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+slider  slick swiper plugin
+
+https://www.dabipyeung.com/soaply_backend/model/get_products.php?qnt=3
