@@ -5,3 +5,11 @@ remix icon : <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remi
 slider  slick swiper plugin
 
 https://www.dabipyeung.com/soaply_backend/model/get_products.php?qnt=3
+
+Masonry 사진크기 플러그인
+https://masonry.desandro.com/#cdn
+
+< 수정사항 >
+1. special offers 상품 설명글 반응형 글 행수 줄이기
+2. json cors 오류 수정
+3. 

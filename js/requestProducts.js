@@ -7,7 +7,7 @@ const getProductData = async () => {
     .then((data) => {
       let dataElmt;
       data.map((item) => {
-        console.log(item);
+        // console.log(item);
         dataElmt = `
         <div class="product-frame">
           <div class="product-item">
@@ -25,8 +25,20 @@ const getProductData = async () => {
         `;
         products.innerHTML += dataElmt;
       });
+      showLimitItems();
     })
     .catch((err) => console.log(err));
 };
 
 getProductData();
+
+function showLimitItems() {
+  const pr = document.querySelectorAll('.product-frame');
+  pr.forEach((item) => {
+    item.style.display = 'none';
+  });
+
+  for (let i = 0; i < 3; i++) {
+    pr[i].style.display = 'block';
+  }
+}
