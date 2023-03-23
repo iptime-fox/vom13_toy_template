@@ -104,7 +104,7 @@
   .insta-section .insta-info{order: 1;}
   .insta-section .insta-left-image{order: 2; width: 80%; margin: auto;}
 
-  /* footer section */
+  /* footer section 푸터섹션 */
   footer .footer-upper{flex-direction: column;}
   footer .footer-logo{margin-bottom: var(--el-medium);}
   footer .footer-info{flex-direction: column; row-gap: var(--el-medium); align-items: center;}
