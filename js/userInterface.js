@@ -2,7 +2,7 @@
 const header = document.querySelector('#header');
 
 const stickyHeader = () => {
-  const scry = window.screenY;
+  const scry = window.scrollY;
   if (scry > 0) {
     header.classList.add('active');
   } else {

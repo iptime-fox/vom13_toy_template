@@ -16,3 +16,5 @@ https://rosedaily101.tistory.com/10
 1. special offers 상품 설명글 반응형 글 행수 줄이기 //
 2. json cors 오류 수정 //
 3. 
+
+cmd shift r = 갱신
