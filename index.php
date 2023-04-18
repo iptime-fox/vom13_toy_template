@@ -44,7 +44,12 @@
           </div>
         </div>
       
+        
       </div>
+      <div class="mobile-menu">
+        <?php include $_SERVER['DOCUMENT_ROOT'].'/common_template/include/nav.php'; ?>
+        <?php include $_SERVER['DOCUMENT_ROOT'].'/common_template/include/info.php'; ?>
+        </div>
 
       
     </header>
