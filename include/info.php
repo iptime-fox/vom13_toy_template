@@ -21,7 +21,7 @@
     <li class="user"><a href="/common_template/signin.php"><i class="ri-user-fill"></i></a></li>
     <?php } else { ?>
     <li class="loggedIn">
-      <span>jeno님</span>&nbsp;|&nbsp;<a href="/common_template/php/logout.php">Logout</a></a>
+      <span><?=$userid?>님</span>&nbsp;|&nbsp;<a href="/common_template/php/logout.php">Logout</a></a>
     </li>
     <?php } ?>
   </ul>
